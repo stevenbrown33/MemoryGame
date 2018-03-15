@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class CardController {
+    static let shared = CardController()
+    var cards: [Card] = []
+    
+    
+}

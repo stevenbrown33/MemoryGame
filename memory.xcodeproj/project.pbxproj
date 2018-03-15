@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27D0EAF8205AE5880024150E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D0EAF7205AE5880024150E /* Card.swift */; };
+		27D0EAFB205B116C0024150E /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D0EAFA205B116C0024150E /* CardController.swift */; };
 		DF928F9E205ADF7900DAA825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF928F9D205ADF7900DAA825 /* AppDelegate.swift */; };
 		DF928FA0205ADF7900DAA825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF928F9F205ADF7900DAA825 /* ViewController.swift */; };
 		DF928FA3205ADF7900DAA825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF928FA1205ADF7900DAA825 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27D0EAF7205AE5880024150E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		27D0EAFA205B116C0024150E /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
 		DF928F9A205ADF7900DAA825 /* memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF928F9D205ADF7900DAA825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF928F9F205ADF7900DAA825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D0EAF9205AE6A30024150E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27D0EAF7205AE5880024150E /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27D0EAFC205B11770024150E /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27D0EAFA205B116C0024150E /* CardController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
 		DF928F91205ADF7900DAA825 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				DF928F9F205ADF7900DAA825 /* ViewController.swift */,
+				27D0EAF9205AE6A30024150E /* Model */,
+				27D0EAFC205B11770024150E /* Model Controller */,
 				DF928FA1205ADF7900DAA825 /* Main.storyboard */,
 				DF928FAF205ADF8800DAA825 /* Resources */,
 			);
@@ -145,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF928FA0205ADF7900DAA825 /* ViewController.swift in Sources */,
+				27D0EAFB205B116C0024150E /* CardController.swift in Sources */,
+				27D0EAF8205AE5880024150E /* Card.swift in Sources */,
 				DF928F9E205ADF7900DAA825 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

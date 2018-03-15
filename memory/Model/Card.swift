@@ -10,14 +10,15 @@ import Foundation
 
 class Card {
     
-    var faceDown: Bool
-    var faceUp: Bool
-    var matched: Bool
+    var isFaceDown: Bool = true
+    var isMatched: Bool = false
+    var identifier: Int
     
-    init(faceDown: Bool, faceUp: Bool, matched: Bool) {
-        self.faceDown = faceDown
-        self.faceUp = faceUp
-        self.matched = matched
+    init(identifier: Int) {
+        self.identifier = identifier
     }
     
+    
+    
 }
+
