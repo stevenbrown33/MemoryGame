@@ -12,14 +12,27 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    var game = Concentration(numberOfPairsOfCards: numberOfPairsOfCards)
+    
+    // Need cardButtons Outlet
+    var numberOfPairsOfCards: Int {
+        return(cardButtons.count + 1) /2
     }
-
-
+    
+    // Need flipCountLabel Outlet
+    var flipCount: Int = 32 {
+        didSet {
+            flipCountLabel.text = "Flips: \(flipCount)"
+        }
+    }
+    
+    func updateViews() {
+        for index in cardButtons.indices{
+            let button = cardButtons[index]
+            let 
+        }
+    }
 }
 
