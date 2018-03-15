@@ -170,7 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF928FA0205ADF7900DAA825 /* ViewController.swift in Sources */,
+<<<<<<< HEAD
+				27D0EAFB205B116C0024150E /* CardController.swift in Sources */,
+				27D0EAF8205AE5880024150E /* Card.swift in Sources */,
+=======
 				DF928FB5205B2D0900DAA825 /* CardButton.swift in Sources */,
+>>>>>>> b3c8f720ab45309f3e1bcb00311a3b0cb4479566
 				DF928F9E205ADF7900DAA825 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
