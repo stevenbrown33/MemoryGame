@@ -10,7 +10,9 @@ import UIKit
 
 class CardButton: UIButton {
     
-    var elementImage: UIImage?
-   // var isOpen = false
+    var shuffledImages: UIImage?
+    var flag: Bool = false
+
+    
 
 }
